@@ -19,4 +19,15 @@ echo "boletim escolar: \n";
 foreach ($boletim as $nome => $media) {
     echo "$nome - media: $media \n";
 }
+
+echo "Resultados finais: \n";
+
+foreach ($boletim as $nome => $media) {
+    if ($media>=6){
+        echo "$nome foi aprovado com média $media. \n";
+    }
+    else{
+        echo "$nome foi reprovado com média $media. \n";  
+    }
+}
 ?>
