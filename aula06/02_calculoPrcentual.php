@@ -18,6 +18,6 @@ for($i=1; $i<=$numeroAlunos; $i++) {
 echo "frequencia escolar: \n";
 
 foreach ($frequencia as $nome => $freq) {
-    echo "$nome - frequencia: $freq % \n";
+    echo "Aluno(a) $nome: $freq % \n";
 }
 ?>
