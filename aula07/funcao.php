@@ -5,15 +5,15 @@
 //palavra reservada da linguagem ex.: echo, readline,...
 
 //função sem paramêtros
-function apresentar($nome){ // $nome é um parametro
-    echo "olá, $nome boa noite! \n";
+function apresentar($nome, $idade, $cidade){ // $nome é um parametro
+    echo "olá, $nome boa noite! \nvocê tem $idade anos e mora em $cidade. \n \n";
 }
 
 // Chamando (invocando)
-apresentar("Ana"); // "Ana" é um argumento!
-apresentar("Bia");
-apresentar("Zeus");
-apresentar("Apolo");
+apresentar("Atena", 1500, "santorini"); // "Ana" é um argumento!
+apresentar("Afrodite", 1650, "miconos");
+apresentar("Zeus", 2050, "corfu");
+apresentar("Apolo", 1800, "rodes");
 
 
 ?>
