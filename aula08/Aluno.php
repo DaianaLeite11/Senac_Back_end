@@ -61,9 +61,9 @@ class Aluno {
       
      }
      public function exibirDados(){
-        echo "Nome: $this->nome() \n";
-        echo "Idade: $this->idade() \n";
-        echo "Situação: $this->matriculado() \n";
+        echo "Nome: $this->nome \n";
+        echo "Idade: $this->idade \n";
+        echo "Situação: $this->matriculado \n";
     }
 
 }
@@ -91,6 +91,7 @@ $aluno3 = new Aluno("Lucas", 16);
 
 
 //método tostring
+
 $aluno1->exibirDados();
 $aluno2->exibirDados();
 $aluno3->exibirDados();
