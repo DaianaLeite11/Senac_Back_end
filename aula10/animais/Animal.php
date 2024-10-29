@@ -1,6 +1,8 @@
 <?php
 
 class Animal {
+    
+// proteceted apenas os herdeiros conseguem ver
 
     protected $nome;
     protected $idade;

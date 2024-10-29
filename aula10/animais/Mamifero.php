@@ -7,6 +7,7 @@ class Mamifero extends Animal
 
     public function __construct($nome, $idade, $cor, $numeroDePatas )
     {
+        //uso para pegar os atributos do "pai"
         parent::__construct ($nome, $idade, $cor);
         $this->numeroDePatas = $numeroDePatas;
     }
