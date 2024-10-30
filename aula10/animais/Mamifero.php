@@ -2,7 +2,7 @@
 
 class Mamifero extends Animal
 {
-    private $numeroDePatas;
+    protected $numeroDePatas;
 
 
     public function __construct($nome, $idade, $cor, $numeroDePatas )
