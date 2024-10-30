@@ -9,7 +9,7 @@ class Animal {
     protected $cor;
 
     public function comunicar(){
-        echo "Fazendo barulho";
+        echo "Fazendo barulho \n";
     }
 
     public function __construct($nome, $idade, $cor )

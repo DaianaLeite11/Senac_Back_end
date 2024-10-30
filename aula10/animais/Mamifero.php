@@ -11,5 +11,8 @@ class Mamifero extends Animal
         parent::__construct ($nome, $idade, $cor);
         $this->numeroDePatas = $numeroDePatas;
     }
+    public function comunicar(){
+        echo "Mamífero fazendo barulho \n";
+    }
 }
 ?>
