@@ -15,6 +15,9 @@ class Main {
         $mamifero2= new Mamifero("Gato", 1, "preto", 4);
         $mamifero2->comunicar();
     }
-    
+
+   
 }
+
+Main::run();
 ?>

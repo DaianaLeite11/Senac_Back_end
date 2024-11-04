@@ -15,4 +15,6 @@ class Mamifero extends Animal
         echo "Mamífero fazendo barulho \n";
     }
 }
+
+
 ?>
