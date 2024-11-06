@@ -7,6 +7,13 @@ use Illuminate\Http\Request;
 class PrincipalController extends Controller
 {
     public function principal (){
-        echo "Olá, seja bem-vindo a página Principal";
+
+        $fornecedores=[ 
+            'fornecedor 1' ,      
+            'fornecedor 2',       
+            'fornecedor 3',       
+    ];
+        
+        return view ('index', compact('fornecedores'));
     }
 }
