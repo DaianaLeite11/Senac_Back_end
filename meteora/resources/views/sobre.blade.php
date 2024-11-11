@@ -10,4 +10,8 @@
     <li>
         <a href="/contato">Contato</a>
     </li>
+    <li>
+        <a href="/produtosa">Produtos</a>
+    </li>
 </ul>
+

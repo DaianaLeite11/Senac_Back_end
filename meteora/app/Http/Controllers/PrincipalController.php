@@ -9,7 +9,7 @@ class PrincipalController extends Controller
     public function principal (){
 
         $fornecedores=[ 
-            'fornecedor 1' ,      
+            'fornecedor 1',      
             'fornecedor 2',       
             'fornecedor 3',       
     ];
