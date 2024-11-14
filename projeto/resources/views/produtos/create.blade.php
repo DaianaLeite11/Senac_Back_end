@@ -26,7 +26,7 @@
         {{-- campo para o nome do produto --}}
         <div class="mb-3">
             <label for="nome" class="form-label">nome</label>
-            <input type="text" id="nome" class="form-control" name="nome">
+            <input type="text" id="nome" class="form-control" name="nome" required>
         </div>
 
         <div class="mb-3">
@@ -37,30 +37,31 @@
 
         <div class="mb-3">
             <label for="tamanho" class="form-label">tamanho</label>
-            <input type="text" id="tamanho" class="form-control" name="tamanho">
+            <input type="text" id="tamanho" class="form-control" name="tamanho" required>
         </div>
 
         <div class="mb-3">
             <label for="cor" class="form-label">cor</label>
-            <input type="text" id="cor" class="form-control" name="cor">
+            <input type="text" id="cor" class="form-control" name="cor" required>
         </div>
 
         <div class="mb-3">
             <label for="preco" class="form-label">preco</label>
-            <input type="number" id="preco" class="form-control" name="preco">        
+            <input type="number" id="preco" class="form-control" name="preco" required>        
         </div>
 
 
         <div class="mb-3">
             <label for="quantidade" class="form-label">quantidade</label>
-            <input type="number" id="quantidade" class="form-control" name="quantidade">        
+            <input type="number" id="quantidade" class="form-control" name="quantidade" required>        
         </div>
 
         <div class="mb-3">          
             <label for="imagem" class="form-label">imagem</label>
-            <input type="file" id="imagem" class="form-control" name="imagem">
+            <input type="file" id="imagem" class="form-control" name="imagem" accept="image/*" required>
         </div>
     
+      <button type="submit" class = "btn btn-primary">Cadastrar Produto</button>
     </form>
    
 </div>
