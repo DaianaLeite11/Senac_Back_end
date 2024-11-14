@@ -10,7 +10,7 @@
 
 </head>
 <body>
-   <div class="conteiner my=5">
+   <div class="container my=5">
 
     <h2>Cadastrar Produto</h2>
 
@@ -20,7 +20,7 @@
             
     @endif
 
-    <form action="{{ 'produtos.store' }}" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('produtos.store' )}}" method="POST" enctype="multipart/form-data">
     
         @csrf
         {{-- campo para o nome do produto --}}
