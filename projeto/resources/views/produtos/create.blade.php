@@ -10,15 +10,16 @@
 
 </head>
 <body>
-   <div class="container my=5">
+   <div class="container my-5">
 
     <h2>Cadastrar Produto</h2>
 
 
-    @if (session('sucess'))
-    <div class="alert alert-success">{{ session('sucess') }}</div>
-            
+    @if (session('success'))
+        <div class="alert alert-success">{{ session('success') }}</div>
     @endif
+
+
 
     <form action="{{ route('produtos.store' )}}" method="POST" enctype="multipart/form-data">
     

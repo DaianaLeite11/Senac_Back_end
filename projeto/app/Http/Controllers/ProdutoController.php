@@ -38,6 +38,7 @@ class ProdutoController extends Controller
             'imagem'=> $request->imagem
         ]);
 
+        
         return redirect()->route('produtos.create')->with('success', 'Produto cadastrado com sucesso!');
     }
 }
